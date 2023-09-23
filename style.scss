@@ -1,3 +1,4 @@
+
 @mixin centerTranform($str){
     @if($str == "center x"){
         left: 50%;
@@ -118,7 +119,6 @@
 }
 .btn{
     position: absolute;
-    bottom:4%;
     @include centerTranform("center x");
 }
 .btn-green{
@@ -171,4 +171,3 @@
     }
 }
 
-// bg-gradient-to-t from-[#007042] to-[#50c82e] drop-shadow-[4px_4px_4px_rgba(0,0,0,0.3)]"

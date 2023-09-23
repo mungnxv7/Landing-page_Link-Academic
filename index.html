@@ -12,13 +12,13 @@
   <div>
     <header class="flex justify-between md:justify-between items-center container_box py-3 relative">
       <diV>
-        <img class="w-full" src="img-layout/logo-274.svg" alt="">
+        <img class="w-[50%] sm:w-[80%]" src="img-layout/logo-274.svg" alt="">
       </diV>
       <div  class="block md:hidden">
         <button id="btn-nav" ><i class="fa-solid fa-bars"></i></button>
         <button id="btn-close" class="hidden_block" ><i class="fa-solid fa-xmark"></i></button>
       </div>
-      <div id="nav" class="hidden md:block absolute top-full right-0 z-10 shadow-sm bg-white md:bg-transparent">
+      <div id="nav" class="hidden md:block absolute md:static top-full right-0 z-10 shadow-sm bg-white md:bg-transparent">
         <ul class="md:flex items-center font-['Open_Sans'] font-bold justify-end">
           <li class="p-2 md:mx-6 lg:mx-11"><a href="#">Trang chủ</a></li>
           <li class="p-2 md:mx-6 lg:mx-11"><a href="#">Khóa học hè</a></li>
@@ -44,26 +44,26 @@
         xl:bottom-[0] bottom-[-5%]
         " action="" method="post">
           <div class="flex gap-3 xl:gap-10">
-            <input class="w-1/2 text-[10px] sm:text-xs xl:text-base h-8 xl:h-10 bg-transparent text-[#004194] border-b-2 border-[#004194] outline-none" type="text" value="Ho ten con">
+            <input class="w-1/2 text-[10px] sm:text-xs xl:text-base h-8 xl:h-10 bg-transparent text-[#004194] border-b-2 border-[#004194] outline-none" type="text" value="Họ tên con">
             <select class="w-1/2 text-[10px] sm:text-xs xl:text-base h-8 xl:h-10 bg-transparent text-[#004194] border-b-2 border-[#004194] outline-none" name="" id="">
-              <option value="">Con dang hoc lop</option>
+              <option value="">Con đang học lớp</option>
             </select>
           </div>
           <div class="flex gap-3 xl:gap-10">
             <input class="w-1/2 text-[10px] sm:text-xs xl:text-base h-8 xl:h-10 bg-transparent text-[#004194] border-b-2 border-[#004194] outline-none" type="text" value="So dien thoai phu huynh">
             <select class="w-1/2 text-[10px] sm:text-xs xl:text-base h-8 xl:h-10 bg-transparent text-[#004194] border-b-2 border-[#004194] outline-none" name="" id="">
-              <option value="">Noi gia dinh dang sinh song</option>
+              <option value="">Nơi gia đình đang sinh sống</option>
             </select>
           </div>
           <div class="mt-3 xl:flex items-center justify-between">
             <p class="text-[#004194] text-[10px] sm:text-xs xl:text-base">Con có phải là học viên của Language Link Academic không?</p>
             <label>
               <input class="w-2 h-2" type="radio">
-              <span class="text-[#004194] text-[10px] sm:text-xs xl:text-base">Co</span>
+              <span class="text-[#004194] text-[10px] sm:text-xs xl:text-base">Có</span>
             </label>
             <label>
               <input class="w-2 h-2" type="radio">
-              <span class="text-[#004194] text-[10px] sm:text-xs">Khong</span>
+              <span class="text-[#004194] text-[10px] sm:text-xs">Không</span>
             </label>
           </div>
           <div class="btn_form">
@@ -86,9 +86,9 @@
             <img src="img-layout/co-gi-hay/uom-mam.png" alt="">
             <div class="mt-3 text-[10px] md:text-sm xl:text-base">
               <p>Con tham gia<b>02 buổi học miễn phí</b> với <b>giáo viên nước ngoài</b> để:</p>
-              <p class="round-green">Tích thêm từ vựng, học nhiều cấu trúc câu đa 
+              <p class="sm:round-green">Tích thêm từ vựng, học nhiều cấu trúc câu đa 
                 dạng</p>
-              <p class="round-green">Học cách xây dựng bài thuyết trình chuẩn ngữ 
+              <p class="sm:round-green">Học cách xây dựng bài thuyết trình chuẩn ngữ 
                 pháp, luận điểm rành mạch với âm điệu như người 
                 bản xứ</p>
             </div>
@@ -118,9 +118,9 @@
             <img class="" src="img-layout/co-gi-hay/Asset 6.png" alt="">
             <div class="mt-3 text-[10px] md:text-sm xl:text-base">
               <p>Cuối buổi học thứ hai, có có cơ hội</p>
-              <p class="round-blue">Nhận học bổng lên đến 15 triệu
+              <p class="sm:round-blue">Nhận học bổng lên đến 15 triệu
                 cho khóa Anh Văn hè</p>
-              <p class="round-blue">Tham gia chương trình bốc thăm 
+              <p class="sm:round-blue">Tham gia chương trình bốc thăm 
                 trúng thưởng với nhiều phần quà giá trị.</p>
             </div>
           </div>
@@ -133,7 +133,7 @@
     </div>
     <div class="relative bg-[url(img-layout/con-duong/con-duong.png)]  pb-[75%] md:pb-[55%] bg-center bg-no-repeat bg-cover">
       <img class="w-2/5 con_duong_title" src="img-layout/con-duong/lam-the-nao-735.svg" alt="">
-      <div class="btn btn-green sm:h-[7%] w-1/3 sm:w-1/4 h-[9%] bg-black p-1 rounded-full">
+      <div class="btn btn-green bottom-1 sm:bottom-[4%] sm:h-[7%] w-1/2 sm:w-1/4 h-[12%] bg-black p-1 rounded-full">
         <button class="btn_scroll uppercase italic rounded-full bg-white 
          sm:text-lg lg:text-2xl 2xl:text-4xl font-bold  w-full h-full
         ">
@@ -144,7 +144,7 @@
       <div class="left-0 bottom-0 -z-10  h-full absolute"><img class="lg:mt-80 mt-0 sm:mt-40 h-full w-full object-cover" src="img-layout/backgorund-group.png" alt=""></div>
       <div class="flex justify-center items-center container_box "> 
         <div class="">
-          <p class="text-sm sm:text-lg md:text-2xl xl:text-4xl btn-text-green-l font-bold">
+          <p class="text-xs sm:text-lg md:text-2xl xl:text-4xl btn-text-green-l font-bold">
             Quà tặng đặc biệt<br>
             khi tham gia lớp học thử<br>
             “ÔM TRÁI ĐẤT VÀO LÒNG"</p>
@@ -155,24 +155,24 @@
             </div>
         </div>
         <div class="w-max">
-          <img class="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[550px]" src="img-layout/qua-tang/qua-tang.png" alt="">
+          <img class="h-[180px] sm:h-[300px] md:h-[400px] lg:h-[550px]" src="img-layout/qua-tang/qua-tang.png" alt="">
         </div>
       </div>
       <div class="container_box">
-        <div>
+        <div class="py-3 sm:py-0">
           <img class="mx-auto" src="img-layout/loi-ich-khi/loi-ich-khi-935.svg" width="935" alt="">
         </div>
         <div class="relative pt-10 mt-10 lg:mt-0">
           <div class="relative mx-auto w-max">
-            <img class="mx-auto w-[400px] md:w-[550px] xl:w-[660px] -translate-x-3" src="img-layout/loi-ich-khi/img1.png" alt="">
-            <div class="bg-white rounded-full w-[40%] h-[40%] absolute top-[21%] left-[32%] flex items-center justify-center p-10">
-              <p class="text-green-600 text-lg md:text-2xl xl:text-4xl text-center font-bold">Ưu điểm
+            <img class="mx-auto w-[285px] sm:w-[400px] md:w-[550px] xl:w-[660px] -translate-x-3" src="img-layout/loi-ich-khi/img1.png" alt="">
+            <div class="bg-white rounded-full w-[40%] h-[40%] absolute top-[21%] left-[29%] sm:left-[31%] flex items-center justify-center p-2 sm:p-10">
+              <p class="text-green-600 sm:text-lg md:text-2xl xl:text-4xl text-center font-medium sm:font-bold">Ưu điểm
                 vượt trội
                 của lớp học
                 theo chủ đề</p>
             </div>
           </div>
-          <div class="w-[32%] lg:w-[18%] absolute top-0 left-0">
+          <div class="w-[40%] lg:w-[18%] absolute -top-[9%] left-0">
             <div class="xl:w-[160px] text-xs md:text-base">
               <p class="font-bold">HỨNG THÚ HỌC TẬP</p>
               <p>Kích hoạt đam mê học 
@@ -181,9 +181,9 @@
             </div>
               <img class="translate-x-1/4 hidden lg:block" src="img-layout/loi-ich-khi/path1.svg" alt="">
           </div>
-          <div class="w-[46%] lg:w-[18%] absolute top-0 lg:top-[23%] xl:top-[28%] right-[17%]">
+          <div class="w-[50%] lg:w-[18%] absolute -top-[10%] lg:top-[23%] xl:top-[28%] right-[10%] sm:right-[5%] xl:right-[17%]">
             <img class="w-[70%] hidden lg:block" src="img-layout/loi-ich-khi/path2.svg" alt="">
-            <div class="w-[200px] md:w-[320px] lg:w-[160px] text-xs md:text-base translate-x-[30%]">
+            <div class="w-[100%] lg:w-[160px] text-xs md:text-base translate-x-[30%]">
               <p class="font-bold">THUYẾT TRÌNH,
                 VIẾT HỌC THUẬT</p>
               <p>Phát triển khả năng 
@@ -192,15 +192,15 @@
                 bằng tiếng Anh</p>
             </div>
           </div>
-          <div class="absolute bottom-[16%] left-[0%] sm:left-[10%]">
-            <div class="w-3/5 text-xs md:text-base">
+          <div class="sm:absolute bottom-[16%] left-[0%] sm:left-[8%]">
+            <div class="sm:w-3/5 text-xs md:text-base">
               <p class="font-bold">HOÀN THIỆN 3 MỤC TIÊU</p>
               <p>Giao tiếp chuẩn - 
                 Ngữ pháp chuyên - Thi cử giỏi</p>
             </div>
             <img class="w-[80%] translate-x-1/2 lg:translate-x-1/4 hidden lg:block" src="img-layout/loi-ich-khi/path3.svg" alt="">
           </div>
-          <div class=" mx-auto md:absolute bottom-[15%] right-0 w-[200px] md:w-[300px] btn-green rounded-full p-1">
+          <div class="mt-5 sm:mt-0 mx-auto md:absolute bottom-[15%] right-0 w-[200px] md:w-[300px] btn-green rounded-full p-1">
             <button class="w-full btn_scroll bg-white uppercase italic rounded-full
              h-10 md:h-16">
               <span class="btn-text-green font-bold md:text-2xl">Tham gia ngay</span></button>
@@ -235,8 +235,8 @@
         </div>
       </div>
       <div class="container_box sm:grid grid-cols-3 gap-10">
-        <div class="w-3/5 mx-auto sm:w-full">
-          <div class="relative w-[140%] left-1/2 -translate-x-1/2">
+        <div class="w-[80%] mx-auto sm:w-full">
+          <div class="relative sm:w-[140%] left-1/2 -translate-x-1/2">
             <img src="img-layout/phu-huynh/phu-huynh1.png" alt="">
           </div>
           <div class="relative -top-10 lg:-top-16 z-10 ">
@@ -254,8 +254,8 @@
                 cao là 850/900 cho kì thi TOEFL Junior.</p>
           </div>
         </div>
-        <div class="w-3/5 mx-auto sm:w-full">
-          <div class="relative w-[140%] left-1/2 -translate-x-1/2">
+        <div class="w-[80%] mx-auto sm:w-full">
+          <div class="relative sm:w-[140%] left-1/2 -translate-x-1/2">
             <img src="img-layout/phu-huynh/phu-huynh2.png" alt="">
           </div>
           <div class="relative -top-10 lg:-top-16 z-10">
@@ -277,8 +277,8 @@
                 hiện niềm yêu thích, say mê với tiếng Anh.</p>
           </div>
         </div>
-        <div class="w-3/5 mx-auto sm:w-full">
-          <div class="relative w-[140%] left-1/2 -translate-x-1/2">
+        <div class="w-[80%] mx-auto sm:w-full">
+          <div class="relative sm:w-[140%] left-1/2 -translate-x-1/2">
             <img class="" src="img-layout/phu-huynh/phu-huynh3.png" alt="">
           </div>
           <div class="relative -top-10 lg:-top-16 z-10">
@@ -299,25 +299,25 @@
           </div>
         </div>
       </div>
-      <div class="absolute bottom-[16%] lg:bottom-[13%] xl:-left-[6%] -left-[12%] w-1/4">
+      <div class="absolute -translate-y-[80%] sm:-translate-y-0 sm:bottom-[16%] lg:bottom-[13%] xl:-left-[6%] -left-[12%] w-1/4">
         <img class="" src="img-layout/san-ho-trai.png" alt="">
       </div>
-      <div class="absolute bottom-[16%] lg:bottom-[13%] -right-[14%] w-[28%]">
+      <div class="absolute -translate-y-[80%] sm:-translate-y-0 sm:bottom-[16%] lg:bottom-[13%] -right-[14%] w-[28%]">
         <img src="img-layout/san-ho-phai.png" alt="">
       </div>
-      <div class="bg-green-400 border-b">
-        <div class="container_box flex justify-between py-10 border-b">
-          <div class="w-1/4">
+      <div class="bg-[#006737] border-b">
+        <div class="container_box sm:flex justify-between flex-wrap py-10 border-b">
+          <div class="mt-4 sm:mt-0 sm:w-1/4">
             <img class="mx-auto max-h-[90px] md:max-h-[147px]" src="img-layout/hang-ngan-phu-huynh/icon-1.png" alt="">
             <p class="sm:text-xl text-sm font-bold text-center text-white mt-2">Tập đoàn giáo dục 
               đến từ Anh Quốc</p>
           </div>
-          <div class="w-1/4">
+          <div class="mt-4 sm:mt-0 sm:w-1/4">
             <img class="mx-auto max-h-[90px] md:max-h-[147px]" src="img-layout/hang-ngan-phu-huynh/icon-2.png" alt="">
             <p class="sm:text-xl text-sm font-bold text-center text-white mt-2">Trong đào tạo Tiếng 
               Anh trẻ em</p>
           </div>
-          <div class="w-1/4">
+          <div class="mt-4 sm:mt-0 sm:w-1/4">
             <img class="mx-auto max-h-[90px] md:max-h-[147px]" src="img-layout/hang-ngan-phu-huynh/icon-3.png" alt="">
             <p class="sm:text-xl text-sm font-bold text-center text-white mt-2">18+ năm là đối tác 
               tin cậy của sở giáo 
@@ -352,6 +352,17 @@
         <div>
         </div>
       </div>
+    </div>
+    <div class="text-white bg-orange-500 rounded-full fixed bottom-[2%] left-[2%] w-[80px] h-[80px] sm:w-[120px] sm:h-[120px]
+    flex items-center justify-center z-10">
+      <div class="text-center text-xs sm:text-base">
+        <i class="fa-solid fa-phone-volume"></i>
+        <p class="font-bold">1900 633 683</p>
+      </div>
+    </div>
+    <div class="text-white bg-[#3acb5c] rounded-full fixed bottom-[2%] right-[2%] w-[60px] h-[60px] sm:w-[80px] sm:h-[80px]
+    flex items-center justify-center z-10">
+        <p><i class="fa-solid fa-comments"></i></p>
     </div>
   </div>
   <script src="main.js"></script>
